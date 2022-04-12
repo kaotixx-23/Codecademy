@@ -1,0 +1,128 @@
+body {
+font-family: 'Dosis', sans-serif;
+  margin: 0 10%;
+  background-color: #e9ecef;
+}
+.container {
+  border: 1px solid #a2a2a6;
+  margin: 10px auto;
+  text-align: left;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  padding: 20px;
+      -webkit-box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+            box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+    }
+.color-container {
+  width: 100%;
+}
+
+.color-panel {
+  width: 20px;
+  border: 1px solid #a2a2a6;
+  border-radius: 5px;
+      -webkit-box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+            box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+  text-align: center;
+  margin: 10px;
+  width: 100px;
+  transition: width 2s;
+}
+
+.color-panel:hover {
+ width: 96%;
+}
+
+.red {
+  background-color: #e63946;
+  color: #e63946; 
+}
+
+.red:hover {
+  color: #fff;
+}
+
+.stone {
+  background-color: #f1faee;
+  color: #f1faee;
+}
+.stone:hover {
+  color: #000
+}
+.aqua {
+  background-color: #a8dadc;
+  color: #a8dadc;
+}
+.aqua:hover {
+  color: #fff
+}
+
+.royal-blue {
+  background-color: #457b9d;
+  color: #457b9d;
+}
+
+.royal-blue:hover {
+  color: #fff
+}
+
+.deep-blue {
+  background-color: #1d3557;
+  color: #1d3557;
+}
+.deep-blue:hover {
+  color: #fff
+}
+
+
+.font-panel {
+  width: 45%;
+  display: inline-block;
+}
+
+.font-label {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.family-cabin {
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.lobster {
+  font-family: 'Lobster', cursive;
+}
+
+.dosis {
+  font-family: 'Dosis', sans-serif;
+}
+
+.text-panel h1 {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: 'Lobster', cursive;
+}
+
+.text-panel h2 {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.text-panel p {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Family Cabin', cursive;
+}
