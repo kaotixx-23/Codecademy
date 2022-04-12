@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Dosis:wght@200&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <h1>My Website Styling Sheet</h1>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Colors</h2>
+        <div class="color-container">
+          <div class="color-panel red">
+            <p class="color-label">Red</p>
+            <p class="color-hex">#e63946</p>
+          </div>
+          <div class="color-panel stone">
+             <p class="color-label">Stone</p>
+            <p class="color-hex">#f1faee</p>
+          </div>
+          <div class="color-panel aqua">
+             <p class="color-label">Aqua</p>
+            <p class="color-hex">#a8dadc</p>
+          </div>
+          <div class="color-panel royal-blue">
+             <p class="color-label">Royal Blue</p>
+            <p class="color-hex">#457b9d</p>
+          </div>
+          <div class="color-panel deep-blue">
+             <p class="color-label">Deep Blue</p>
+            <p class="color-hex">#1d3557</p>
+          </div>
+        </div>
+    </div>
+   
+    <div class="container"> 
+      <div><h2>Fonts</h2></div>
+      <div class="font-container">
+        <div class="font-panel">
+          <p class="font-label lobster">Lobster</p>
+          <p class="regular lobster">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+        <div class="font-panel">
+          <p class="font-label dosis">Dosis</p>
+          <p class="regular dosis">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+        <div class="font-panel">
+          <p class="font-label family-cabin">Family Cabin</p>
+          <p class="regular family-cabiin">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Text Styles</h2>
+      <div class="text-container">
+        <div class="text-panel">
+          <h1>H1: Main page heading</h1>
+          <ul>
+            <li>Font-weight: 700 (bold)</li>
+            <li>Font-size: 26px</li>
+            <li>Font-family: Lobster</li>
+          </ul>
+        </div>
+        <div class="text-panel">
+          <h2>H2: Subheading</h2>
+          <ul>
+            <li>Font-weight: 500</li>
+            <li>Font-size: 18px</li>
+            <li>Font-family: Dosis</li>
+          </ul>
+        </div>
+        <div class="text-panel">
+          <p>P: Paragraph text</p>
+          <ul>
+            <li>Font-weight: 400 (regular)</li>
+            <li>Font-size: 14px</li>
+            <li>Font-family: Family Cabin</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+  <foot>
+  </foot>
+</html>
